@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ba4e06e-c3c8-48bd-b9e6-f993c6af35b9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/actions/action_record.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/actions/action_transfer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/containers/left_list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/containers/right_list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/containers/trans_buttons.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reducer_active_record.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reducer_click_button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reducer_records.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +16,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tables-interactions/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +80,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/lists-interactions/node_modules" />
+    <handled-path value="$PROJECT_DIR$/tables-interactions/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="37" />
@@ -115,6 +111,17 @@
             <path>
               <item name="React_Snippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="React_Snippets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React_Snippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React_Snippets" type="462c0819:PsiDirectoryNode" />
+              <item name="tables-interactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React_Snippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React_Snippets" type="462c0819:PsiDirectoryNode" />
+              <item name="tables-interactions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,18 +181,19 @@
       <option name="presentableId" value="Default" />
       <updated>1516028103386</updated>
       <workItem from="1516028106512" duration="27964000" />
-      <workItem from="1516131881752" duration="70000" />
+      <workItem from="1516131881752" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28034000" />
+    <option name="totallyTimeSpent" value="28798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="37" width="1400" height="773" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -199,7 +207,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -229,5 +236,15 @@
     <entry file="file://$PROJECT_DIR$/src/reducers/reducer_click_button.js" />
     <entry file="file://$PROJECT_DIR$/src/reducers/reducer_records.js" />
     <entry file="file://$PROJECT_DIR$/src/reducers/index.js" />
+    <entry file="file://$PROJECT_DIR$/tables-interactions/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
