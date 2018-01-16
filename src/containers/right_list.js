@@ -1,10 +1,10 @@
 import React, { Component }from 'react';
 import { connect } from 'react-redux';
-import { selectRecord } from '../actions/index';
+import { selectRecord } from '../actions/action_record';
 import { bindActionCreators } from 'redux';
 
 
-class List extends Component {
+class RightList extends Component {
     constructor(props) {
         super(props);
 
@@ -12,10 +12,11 @@ class List extends Component {
 
     renderRecords() {
         return this.props.records.map((record) => {
-            return (<li
-                key={record.id}
-                onClick={() => this.props.selectRecord(record)}
-                className={"list-group-item " + (record.id == this.props.selected ? "active" : "inactive")}
+            return (
+                <li
+                    key={record.id}
+                    onClick={() => this.props.selectRecord(record)}
+                    className={"list-group-item " + (record.id == this.props.selected ? "active" : "inactive")}
                 >
                     {record.content}
                 </li>
@@ -25,7 +26,7 @@ class List extends Component {
 
     render() {
         return (
-            <ul className="col-md-4 list-group">
+            <ul className="list-group">
                 {this.renderRecords()}
             </ul>
         );
@@ -35,7 +36,7 @@ class List extends Component {
 
 function mapStateToProps(state) {
     return {
-        records : state.records,
+        records : state.rightRecords,
         selected: state.activeRecord
     };
 }
@@ -44,4 +45,4 @@ function mapDispatchToProps(dispatch) {
     return bindActionCreators({ selectRecord : selectRecord}, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(List);
+export default connect(mapStateToProps, mapDispatchToProps)(RightList);
